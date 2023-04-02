@@ -2,12 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { DemoComponent } from './demo/demo.component';
+import { MarvellousComponent } from './marvellous/marvellous.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DemoComponent
+    MarvellousComponent
   ],
   imports: [
     BrowserModule
