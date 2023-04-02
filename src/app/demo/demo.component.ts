@@ -1,0 +1,21 @@
+import { Component } from '@angular/core';
+
+@Component({           // decoration
+  selector: 'app-demo',
+  templateUrl: './demo.component.html',
+  styleUrls: ['./demo.component.css']
+})
+export class DemoComponent 
+{
+  public batch = "Angular";
+  public fees = 18500;
+
+  DisplayDetails()
+  {
+    return "This is web development batch";
+
+  }
+
+
+
+}
